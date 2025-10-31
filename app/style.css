@@ -1,3 +1,9 @@
+html {
+     -moz-osx-font-smoothing: grayscale;
+     -webkit-font-smoothing: antialiased;
+     font-synthesis: none;
+}
+
 .embla {
   margin: auto;
   --slide-spacing: 1rem;
