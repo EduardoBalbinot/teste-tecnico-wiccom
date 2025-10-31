@@ -2,7 +2,7 @@ import HeaderCarousel from "./HeaderCarousel"
 
 export default function Header() {
   const HeaderCarouselProps = {
-    slides: [0, 1, 2, 3, 4],
+    slides: ["AGENDE 3 PAGUE 2: confira as especialidades", "slide 2", "slide 3"],
     options: { loop: true }
   };
 
