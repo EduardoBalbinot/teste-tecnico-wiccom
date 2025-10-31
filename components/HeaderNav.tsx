@@ -19,7 +19,6 @@ export default function HeaderNav({ menus = [] }: Props) {
           <a className="px-4 flex gap-2 cursor-pointer" href={menu.href || "/"}>
             {menu.label}
             {menu.submenus && <img src="/images/UI/arrowdown.svg" alt="Seta para baixo" />}
-            
           </a>
           {menu.submenus && <div
             className="min-h-28 w-full z-10 absolute top-full left-0 hidden group-hover:block opacity-0 group-hover:opacity-100">

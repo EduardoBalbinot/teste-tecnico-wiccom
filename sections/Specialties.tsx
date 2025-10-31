@@ -4,7 +4,7 @@ interface Props{
 
 export default function Specialties({specialties}: Props) {
   return (
-    <section className="py-[60px] px-8 flex flex-col gap-8 text-[#404042] text-center ">
+    <section className="py-[60px] px-8 flex flex-col gap-8 text-[#404042] text-center border-b border-[#CACACA]">
       <h2 className=" text-2xl font-semibold leading-[125%] tracking-[-0.48px]">
         Especialidades <span className="text-[#BE202E]">mais procuradas</span>
       </h2>
