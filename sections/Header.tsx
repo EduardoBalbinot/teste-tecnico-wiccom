@@ -1,4 +1,5 @@
-import HeaderCarousel from "./HeaderCarousel"
+import HeaderCarousel from "../components/HeaderCarousel";
+import HeaderContent from "@/components/HeaderContent";
 
 export default function Header() {
   const HeaderCarouselProps = {
@@ -9,7 +10,7 @@ export default function Header() {
   return (
     <header>
       <HeaderCarousel {...HeaderCarouselProps}/>
-      <h1>Site Header</h1>
+      <HeaderContent name="Taila" />
     </header>
   );
 }

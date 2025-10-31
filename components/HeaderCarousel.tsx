@@ -2,12 +2,12 @@
 
 import React from 'react'
 import { EmblaOptionsType } from 'embla-carousel'
-import { DotButton, useDotButton } from './EmblaCarouselDotButton'
+import { DotButton, useDotButton } from './UI/EmblaCarouselDotButton'
 import {
   PrevButton,
   NextButton,
   usePrevNextButtons
-} from './EmblaCarouselArrowButtons'
+} from './UI/EmblaCarouselArrowButtons'
 import useEmblaCarousel from 'embla-carousel-react'
 
 type PropType = {
@@ -36,7 +36,7 @@ const EmblaCarousel: React.FC<PropType> = (props) => {
           <div className="embla__container">
             {slides.map((string, index) => (
               <div className="embla__slide flex justify-center items-center min-h-10" key={index}>
-                <div className="text-xs font-semibold leading-[-0.24px] text-white text-center">{string}</div>
+                <div className="text-xs font-semibold tracking-[-0.24px] text-white text-center">{string}</div>
               </div>
             ))}
           </div>
