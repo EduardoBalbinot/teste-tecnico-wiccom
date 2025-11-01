@@ -1,3 +1,4 @@
+import FAQ from "@/sections/FAQ";
 import Header from "@/sections/Header";
 import Hero from "@/sections/Hero";
 import Packs from "@/sections/Packs";
@@ -87,6 +88,24 @@ export default function Home() {
           imageAlt: "homem idoso com familia"
         }
       ]}/>
+      <FAQ questions={[
+        {
+          question: "É necessário agendar previamente ou há atendimento por ordem de chegada?", 
+          answer: "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+        },
+        {
+          question: "Quais são os endereços e horários de funcionamento das unidades da clínica?", 
+          answer: "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+        },
+        {
+          question: "Quais formas de pagamento são aceitas? A clínica atende convênios?", 
+          answer: "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+        },
+        {
+          question: "A clínica realiza cirurgias? Quais procedimentos estão disponíveis?", 
+          answer: "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+        },
+      ]} />
     </>
   );
 }
