@@ -1,4 +1,5 @@
 import FAQ from "@/components/sections/FAQ";
+import Footer from "@/components/sections/Footer";
 import Header from "@/components/sections/Header";
 import Hero from "@/components/sections/Hero";
 import Packs from "@/components/sections/Packs";
@@ -106,6 +107,7 @@ export default function Home() {
           answer: "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
         },
       ]} />
+      <Footer />
     </>
   );
 }
