@@ -1,4 +1,4 @@
-import HeaderCarousel from "../components/HeaderCarousel";
+import HeaderCarousel from "../HeaderCarousel";
 import HeaderContent from "@/components/HeaderContent";
 import HeaderNav from "@/components/HeaderNav";
 
