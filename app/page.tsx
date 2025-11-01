@@ -1,5 +1,6 @@
 import Header from "@/sections/Header";
 import Hero from "@/sections/Hero";
+import Packs from "@/sections/Packs";
 import PaymentFeatures from "@/sections/PaymentFeatures";
 import Services from "@/sections/Services";
 import Specialties from "@/sections/Specialties";
@@ -66,6 +67,26 @@ export default function Home() {
           open: true
         }
       ]} />
+      <Packs packs={[
+        {
+          title: "Check-up da mulher 40+",
+          description: "Cuidado voltado para necessidade de mulheres mais maduras",
+          image: "/images/mulher.png",
+          imageAlt: "mulher 40+"
+        },
+        {
+          title: "Check-up de rotina",
+          description: "Cuidado para quem busca praticidade, exames e consultas.",
+          image: "/images/homem.png",
+          imageAlt: "homem"
+        },
+        {
+          title: "Check-up do coração",
+          description: "Cuidado cardiovascular com exames e acompanhamento especializado.",
+          image: "/images/familia.png",
+          imageAlt: "homem idoso com familia"
+        }
+      ]}/>
     </>
   );
 }
