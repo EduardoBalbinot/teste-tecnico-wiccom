@@ -9,10 +9,13 @@ export default function Header() {
   };
 
   return (
-    <header className="relative z-20">
-      <HeaderCarousel {...HeaderCarouselProps}/>
-      <HeaderContent />
-      <HeaderNav />
+    <header>
+      <div className="h-[159.72px]"/>
+      <div className="fixed top-0 bg-white w-full z-20">
+        <HeaderCarousel {...HeaderCarouselProps}/>
+        <HeaderContent />
+        <HeaderNav />
+      </div>
     </header>
   );
 }
