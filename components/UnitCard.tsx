@@ -27,11 +27,11 @@ export default function UnitCard(unit: Unit) {
     </div>
     <div className="flex gap-2">
       <img src="/images/UI/phone-icon.svg" alt="icone de telefone" className="self-start mt-1" />
-      <p>Telefone: ${unit.phone}</p>
+      <p>Telefone: {unit.phone}</p>
     </div>
     <div className="flex gap-2">
       <img src="/images/UI/whatsapp-icon.svg" alt="icone do whatsapp" className="self-start mt-1" />
-      <p>Whatsapp: ${unit.whatsapp}</p>
+      <p>Whatsapp: {unit.whatsapp}</p>
     </div>
     <div className="flex gap-2">
       <img src="/images/UI/maps-point-icon.svg" alt="icone de localização" className="self-start" />

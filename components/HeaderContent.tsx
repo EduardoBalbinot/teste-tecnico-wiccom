@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 export default function HeaderContent() {
   return (
-    <div className="py-4 flex justify-center">
+    <div className="py-4 flex justify-center px-6">
       <div className="max-w-[1120px] gap-[49px] w-full flex justify-between">
         <Image src="/images/logo.svg" alt="Logo" width={147} height={40} />
 

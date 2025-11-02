@@ -28,7 +28,7 @@ export default function HeaderNav() {
     <nav className="border-t border-b border-[#F1F1F1] px-10 font-semibold text-sm text-[#404042] relative">
       <ul className="flex justify-center gap-8 tracking-[-0.28px]">
         {menus.map((menu, index) => (<li key={index} className="flex px-2 group pb-3 pt-3.5 relative hover:text-[#056939]">
-          <a className="px-4 flex gap-2 cursor-pointer" href={menu.href || "/"}>
+          <a className="px-4 flex gap-2 cursor-pointer items-center" href={menu.href || "/"}>
             {menu.label}
             {menu.submenus && <img src="/images/UI/arrowdown.svg" alt="Seta para baixo" width={8}/>}
           </a>

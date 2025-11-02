@@ -30,7 +30,7 @@ const EmblaCarousel: React.FC<PropType> = (props) => {
   } = usePrevNextButtons(emblaApi)
 
   return (
-    <section className="bg-[#056939]">
+    <section className="bg-[#056939] px-6">
       <div className="embla max-w-[1198px]">
         <div className="embla__viewport" ref={emblaRef}>
           <div className="embla__container">
