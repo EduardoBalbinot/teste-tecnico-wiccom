@@ -1,17 +1,29 @@
-interface ISubMenu {
-  label: string;
-  href?: string;
-}
+export default function HeaderNav() {
 
-interface IMenu extends ISubMenu {
-  submenus?: IMenu[];
-}
-
-interface Props {
-  menus?: IMenu[];
-}
-
-export default function HeaderNav({ menus = [] }: Props) {
+  const menus = [
+      { label: "Consultas", submenus: [
+          { label: "Clínica Geral", href: "/" },
+          { label: "Pediatria", href: "/"},
+      ]},
+      { label: "Exames", submenus: [
+          { label: "Exames Submenu 1", href: "/" },
+          { label: "Exames Submenu 2", href: "/"},
+      ]},
+      { label: "Procedimentos", submenus: [
+          { label: "Procedimentos Submenu 1", href: "/" },
+          { label: "Procedimentos Submenu 2", href: "/"},
+      ]},
+      { label: "Cirurgias", submenus: [
+          { label: "Cirurgias Submenu 1", href: "/" },
+          { label: "Cirurgias Submenu 2", href: "/"},
+      ]},
+      { label: "Unidades", submenus: [
+          { label: "Unidades Submenu 1", href: "/" },
+          { label: "Unidades Submenu 2", href: "/"},
+      ]},
+      { label: "Quem Somos", href: "/" },
+    ]
+    
   return (
     <nav className="border-t border-b border-[#F1F1F1] px-10 font-semibold text-sm text-[#404042] relative">
       <ul className="flex justify-center gap-8 tracking-[-0.28px]">

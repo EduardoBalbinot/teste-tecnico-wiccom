@@ -1,15 +1,11 @@
-interface Feature {
-  icon: string;
-  iconAlt?: string;
-  title: string;
-  description: string;
-}
+export default function PaymentFeatures() {
+  const features=[
+          { icon: "/images/UI/pix-icon.svg", title: "5% OFF NO PIX", description: "Desconto no pagamento antecipado", iconAlt: "icone do pix" },
+          { icon: "/images/UI/card-icon.svg", title: "10X sem juros", description: "Para compras a partir de R$500,00", iconAlt: "icone de cartao"},
+          { icon: "/images/UI/percent-icon.svg", title: "DESCONTOS ESPECIAIS", description: "Planos e pacotes promocionais", iconAlt: "icone de porcetengagem" },
+          { icon: "/images/UI/fast-clock-icon.svg", title: "ATENDIMENTO PERSONALIZADO", description: "Agendamento sem burocracia", iconAlt: "icon de relogio" },
+        ];
 
-interface Props {
-  features: Feature[];
-}
-
-export default function PaymentFeatures({ features }: Props) {
   return <section className="py-[17px] bg-[#F1F1F1] flex gap-6 flex-wrap justify-center">
     {features.map((feature, index) => (
       <div className="flex gap-4 group w-[283px]" key={index}>

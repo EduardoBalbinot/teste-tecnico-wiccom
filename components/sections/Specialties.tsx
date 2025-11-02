@@ -1,8 +1,6 @@
-interface Props{
-  specialties: string[];
-}
+export default function Specialties() {
+  const specialties = ["Cardiologia", "Endocrinologia", "Obstetrícia", "Gastroenterologia", "Cirurgia Geral", "Neurologia", "Ortopedia", "Dermatologia"];
 
-export default function Specialties({specialties}: Props) {
   return (
     <section className="py-[60px] px-8 flex flex-col gap-8 text-[#404042] text-center border-b border-[#CACACA]">
       <h2 className=" text-2xl font-semibold leading-[125%] tracking-[-0.48px]">

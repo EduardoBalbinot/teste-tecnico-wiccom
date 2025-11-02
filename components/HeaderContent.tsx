@@ -1,10 +1,7 @@
 import Image from 'next/image';
 
-export interface Props {
-  name?: string;
-}
 
-export default function HeaderContent({name}: Props) {
+export default function HeaderContent() {
   return (
     <div className="py-4 flex justify-center">
       <div className="max-w-[1120px] gap-[49px] w-full flex justify-between">
@@ -16,7 +13,7 @@ export default function HeaderContent({name}: Props) {
               <path d="M3.82031 18.8007H16.5476V17.9145C16.5363 16.6684 16.2521 15.446 15.7213 14.3616C15.1906 13.2768 14.4307 12.3656 13.5128 11.7125C12.5948 11.0594 11.5485 10.686 10.4718 10.6271C10.3757 10.6217 10.2798 10.6191 10.1839 10.6189C10.0881 10.6191 9.99217 10.6217 9.89621 10.6271C8.81945 10.686 7.77313 11.0594 6.85523 11.7125C5.9372 12.3656 5.17731 13.2768 4.64658 14.3616C4.11584 15.446 3.83157 16.6684 3.82031 17.9145V18.8007Z" stroke="#404042" strokeWidth="0.909091" strokeLinecap="round" strokeLinejoin="round" />
               <path d="M10.0696 8.29125C12.0281 8.29125 13.6157 6.70359 13.6157 4.74511C13.6157 2.78663 12.0281 1.19897 10.0696 1.19897C8.11109 1.19897 6.52344 2.78663 6.52344 4.74511C6.52344 6.70359 8.11109 8.29125 10.0696 8.29125Z" stroke="#404042" strokeWidth="0.909091" strokeLinecap="round" strokeLinejoin="round" />
             </svg>
-            Olá, {name}
+            Olá, Taila
           </div>
 
           <button className='rounded-full py-[7px] px-4 bg-[#C4E5C0] flex gap-[5px] items-center cursor-pointer font-semibold text-[#056939]'>

@@ -21,11 +21,11 @@ export default function Footer() {
       </div>
       <PaymentMethods />
       <div className="px-[78px]">
-        <div className="border-t border-[#CACACA]"/>
+        <div className="border-t border-[#CACACA]" />
         <div className="flex justify-center mt-8">
           <p className="text-xs mr-[93px]">© 2025 Copyright 2024 Clínica Fares</p>
-          <img src="/images/wicomm-logo.svg" alt="logo da wicomm" className="mr-6"/>
-          <img src="/images/wake-logo.svg" alt="logo da wake"/>
+          <img src="/images/wicomm-logo.svg" alt="logo da wicomm" className="mr-6" />
+          <img src="/images/wake-logo.svg" alt="logo da wake" />
         </div>
       </div>
     </div>

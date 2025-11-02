@@ -20,7 +20,7 @@ export default function Hero() {
             Cirurgias e muito mais!
           </h1>
 
-          <button 
+          <button
             className="color-[#404042] rounded-full border-[1.111px] border-[rgba(64, 64, 66, 0.70)] py-[17px] px-[18.06px] mt-8 cursor-pointer tracking-[-0.32px] flex gap-[5.55px] items-center leading-0">
             Marque com especialista
             <img src="/images/UI/arrowright.svg" alt="Ícone de seta para direita" />
@@ -30,10 +30,10 @@ export default function Hero() {
 
       <Image
         src="/images/background-hero.png"
-        alt="Imagem de fundo" 
+        alt="Imagem de fundo"
         width={1280}
         height={284}
-        className="absolute top-0 left-0 -z-10 w-full h-full object-fill"/>
+        className="absolute top-0 left-0 -z-10 w-full h-full object-fill" />
     </section>
   );
 }
