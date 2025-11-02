@@ -13,7 +13,7 @@ export default function Question({ question, answer }: IQuestion) {
   const [height, setHeight] = useState('0px')
 
   function handleClick() {
-    setShowAnswer(prev => !prev)
+    setShowAnswer(!showAnswer)
   }
 
   useEffect(() => {

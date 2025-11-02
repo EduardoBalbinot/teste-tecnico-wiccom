@@ -17,6 +17,7 @@ export default function Home() {
       <PaymentFeatures />
       <Services />
       <Units />
+      <FAQ />
       <Packs />
       <Footer />
     </>
